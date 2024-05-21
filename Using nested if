@@ -1,0 +1,25 @@
+a=input("Do u have ur boarding pass: yes/no ")
+if a=="yes":
+    a=input("Which country are you: India/USA/china ")
+    if a=="India":
+        a=input("Do u have ur adhaar no.: yes/no ")
+        if a=="yes":
+            a=input("DO u have ur ticket: yes/no ")
+            if a=="yes":
+                print("Happy journey")
+            elif a=="no":
+                print("Get out")
+        elif a=="no":
+            print("get ur adhaar number")
+    elif a=="USA":
+        a=input("Do u have ur adhaar no.: yes/no ")
+        if a=="yes":
+            a=input("DO u have ur ticket: yes/no ")
+            if a=="yes":
+                print("Happy journey")
+            elif a=="no":
+                print("Get out")
+        elif a=="no":
+            print("get ur adhaar number")
+elif a=="no":
+    print("Get your boarding pass")
