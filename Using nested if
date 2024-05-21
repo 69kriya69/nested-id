@@ -12,7 +12,7 @@ if a=="yes":
         elif a=="no":
             print("get ur adhaar number")
     elif a=="USA":
-        a=input("Do u have ur adhaar no.: yes/no ")
+        a=input("Do u have ur crv no.: yes/no ")
         if a=="yes":
             a=input("DO u have ur ticket: yes/no ")
             if a=="yes":
@@ -20,6 +20,6 @@ if a=="yes":
             elif a=="no":
                 print("Get out")
         elif a=="no":
-            print("get ur adhaar number")
+            print("get ur crv number")
 elif a=="no":
     print("Get your boarding pass")
